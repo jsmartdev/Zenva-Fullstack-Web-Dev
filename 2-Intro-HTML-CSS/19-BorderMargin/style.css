@@ -1,0 +1,14 @@
+#box {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#box2 {
+    background-color: aqua;
+    margin-left: 20px;
+    padding: 0px 10px 30px 40px;
+}
