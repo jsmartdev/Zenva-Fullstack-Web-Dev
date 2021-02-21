@@ -6,3 +6,26 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+.nav {
+    background-color: cadetblue;
+    color: white;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.35s;
+}
+
+.nav ul li:hover {
+    background-color: black;
+}
