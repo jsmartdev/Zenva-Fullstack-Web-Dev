@@ -1,0 +1,13 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.keypoint {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
