@@ -3,10 +3,36 @@
    <head>
       <meta charset="utf-8">
       <title>CSS Flexbox</title>
+
+      <style>
+
+         #parent {
+            background: rgba(255,0,0,.25);
+            display:flex;
+         }
+         
+         .child {
+            width: 100px;
+         }
+
+         .child1 {
+            background: rgba(255,0,0,.25);
+         }
+
+         .child2 {
+            background: rgba(0,255,0,.25);
+         }
+         
+         .child3 {
+            background: rgba(0,0,255,.25);
+         }
+
+
+      </style>
    </head>
    <body>
       
-      <div class="parent">
+      <div id="parent">
 
          <div class="child child1">1</div>
          <div class="child child2">2</div>
