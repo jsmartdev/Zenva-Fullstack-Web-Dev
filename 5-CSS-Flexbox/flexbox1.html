@@ -9,46 +9,24 @@
             #parent { 
                 background: lightblue; 
                 display: flex;
-                flex-flow: row wrap;
-                justify-content: space-around;
+                flex-flow: row nowrap;
             }
             .childitem {  
-                width: 100px;
+                flex-basis: 50px;
             }
             .child1 { 
-                background: cornflowerblue; 
+                background: cornflowerblue;
+                flex-grow: 1; 
             }
             
             .child2 { 
                 background: deepskyblue; 
+                flex-grow: 5; 
             }
             
             .child3 { 
                 background: dodgerblue; 
-            }
-
-            .child4 { 
-                background: goldenrod; 
-            }
-            
-            .child5 { 
-                background: orange; 
-            }
-            
-            .child6 { 
-                background: lemonchiffon; 
-            }
-
-            .child7 { 
-                background: indianred; 
-            }
-            
-            .child8 { 
-                background: salmon; 
-            }
-            
-            .child9 { 
-                background: firebrick; 
+                flex-grow: 1;
             }
             
         </style>
@@ -61,13 +39,7 @@
             <div class="childitem child1">1</div>
             <div class="childitem child2">2</div>
             <div class="childitem child3">3</div>
-            <div class="childitem child4">4</div>
-            <div class="childitem child5">5</div>
-            <div class="childitem child6">6</div>
-            <div class="childitem child7">7</div>
-            <div class="childitem child8">8</div>
-            <div class="childitem child9">9</div>
-
+            
         </div>
     
     </body>
