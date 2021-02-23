@@ -60,10 +60,24 @@
 
          #articles {
             background: rgba(0,0,0,.25);
+            display: flex;
+            justify-content: center;
+         }
+
+         .article-container {
+            background: rgba(0,0,0,.25);
+            width: 300px;
+            margin: 0 25px;
          }
 
          footer {
             background: rgba(0,0,0,.25);
+            height: 50px;
+            text-align: center;
+         }
+
+         footer nav {
+            background: none;
          }
 
       </style>
@@ -109,9 +123,51 @@
       
       </section>
       
-      <section id="articles">Articles</section>
+      <section id="articles">
+
+         <div class="article-container">
+
+            <img src="https://via.placeholder.com/300x200px">
+            <h2>Article Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+         </div>
+         
+         <div class="article-container">
+
+            <img src="https://via.placeholder.com/300x200px">
+            <h2>Article Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+         </div>
+         
+         <div class="article-container">
+
+            <img src="https://via.placeholder.com/300x200px">
+            <h2>Article Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+         </div>
+         
+         
+
+      </section>
       
-      <footer>Footer</footer>
+      <footer>
+
+         <nav>
+
+            <ul>
+
+               <li><a href="#">Menu Item</a></li>
+               <li><a href="#">Menu Item</a></li>
+               <li><a href="#">Menu Item</a></li>
+
+            </ul>
+
+         </nav>
+
+      </footer>
       
    </body>
 </html>
