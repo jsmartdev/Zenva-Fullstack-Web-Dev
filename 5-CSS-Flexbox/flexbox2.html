@@ -14,6 +14,22 @@
 
          header {
             background: rgba(0,0,0,.25);
+            display: flex;
+            justify-content: space-between;
+         }
+
+         #logo {
+            width: 100px;
+            height: 50px;
+            background: rgba(0,0,0,.25);
+         }
+
+         nav {
+            background: rgba(0,0,0,.25);
+         }
+
+         nav ul li {
+            display: inline;
          }
 
          #hero {
@@ -34,7 +50,24 @@
    
    <body>
       
-      <header>Header</header>
+      <header>
+
+         <div id="logo"><img src="https://via.placeholder.com/100x50"></div>
+
+         <nav>
+
+            <ul>
+
+               <li><a href="#">Menu Item</a></li>
+               <li><a href="#">Menu Item</a></li>
+               <li><a href="#">Menu Item</a></li>
+
+            </ul>
+
+         </nav>
+
+      </header>
+      
       <section id="hero">Hero</section>
       <section id="articles">Articles</section>
       <footer>Footer</footer>
