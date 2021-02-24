@@ -14,12 +14,21 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <button type="button" class="btn btn-outline-success" onClick="changeText()">Press Me</button>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="button" autocomplete="off" onClick="changeText()">Press Me</button>
                 </div>
                 <div class="col">
-                    
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#" onClick="selectText('Action')">Action</a></li>
+                            <li><a class="dropdown-item" href="#" onClick="selectText('Another Action')">Another Action</a></li>
+                            <li><a class="dropdown-item" href="#" onClick="selectText('Third Action')">Third Action</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col" id='display'>
+                <div class="col" id='display'> 
                     Button Status
                 </div>
             </div>
@@ -31,6 +40,10 @@
 
             function changeText() {
                 display.innerHTML = "Button Pressed";
+            }
+
+            function selectText(text) {
+                display.innerHTML = text;
             }
 
         </script>
