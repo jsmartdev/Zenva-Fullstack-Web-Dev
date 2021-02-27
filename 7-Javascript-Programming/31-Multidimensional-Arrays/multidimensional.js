@@ -16,3 +16,5 @@ let terrains = [
 ];
 
 console.log(terrains);
+
+/* end of lesson */
